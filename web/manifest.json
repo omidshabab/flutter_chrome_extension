@@ -1,0 +1,15 @@
+{
+  "name": "Flutter Chrome Extension",
+  "short_name": "Flutter Extension",
+  "version": "0.1.0",
+  "description": "A new Flutter project.",
+  "manifest_version": 3,
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icons/Icon-192.png"
+  },
+  "permissions": ["activeTab"]
+}

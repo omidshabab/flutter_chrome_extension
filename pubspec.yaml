@@ -1,0 +1,28 @@
+name: flutter_chrome_extension
+description: "A new Flutter project."
+
+# COMMAND TO BUILD WEB VERSION OF THE APP FOR CHROME EXTENSION: flutter build web --web-renderer html --csp
+
+publish_to: "none"
+
+version: 0.1.0
+
+environment:
+  sdk: ">=3.3.0-279.0.dev <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  webview_flutter_web: ^0.2.2+4
+  webview_flutter_platform_interface: ^2.10.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
